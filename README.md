@@ -39,10 +39,23 @@ Cloud      ▸  Vercel · Neon · AWS S3 · Resend · GA4
 
 ## Featured work
 
+Some company projects are represented as sanitized public showcases. The
+production source, commit history and deployment details stay in private repos.
+
 ### 🟦 [robodorcomcasestudy](https://github.com/gokturkgocen/robodorcomcasestudy)
 Production B2B platform — six locales, custom admin CMS, Puck-based home
 editor, locale-tabbed product / legal / form editors. Stack: Next 16,
 Prisma + Neon, NextAuth v5, Vercel. Live at **[robodor.com](https://www.robodor.com)**.
+
+### 🟧 [robodor-platform](https://github.com/gokturkgocen/robodor-platform)
+IoT door-automation platform showcase — native iOS + Android apps, AWS
+backend, web admin console, tenant-scoped command queue, encrypted backups,
+shared design system.
+
+### 🟨 [industrial-scada-writeup](https://github.com/gokturkgocen/industrial-scada-writeup)
+LAN-only SCADA desktop viewer for multi-card factory monitoring — Node.js
+polling service, Tauri desktop client, WebSocket fan-out, SQLite history,
+Modbus TCP / RS485 constraints.
 
 ### ⚡ [STM32-SyncMotion-Follower](https://github.com/gokturkgocen/STM32-SyncMotion-Follower)
 Real-time encoder follower on STM32G0 — non-blocking position sync, 1/32
@@ -52,13 +65,9 @@ microstepping, RS485 telemetry. Bare-metal C.
 Multi-device Modbus RTU control panel in Python — priority-queue polling
 across many slaves over RS485, Tk-based HMI.
 
-### 🎓 [YKSMaster](https://github.com/gokturkgocen/YKSMaster)
-Tablet-first exam-prep app for Türkiye's YKS — Flutter + Clean Architecture
-+ Riverpod, drawing engine with shape snapping, mistake-tracking analytics.
-
 ### 👁️ [yolo_eye_security](https://github.com/gokturkgocen/yolo_eye_security)
-YOLOv8 person-detection + Expo (React Native) push-alert client over the
-local network.
+YOLOv8 person-detection backend prototype — OpenCV camera loop, Flask status
+and snapshot endpoints for local-network clients.
 
 ---
 
