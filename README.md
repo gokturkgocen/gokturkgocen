@@ -1,25 +1,27 @@
-# Hi, I'm Göktürk 👋
+# Hi, I'm Göktürk
 
-Industrial-electronics engineer who codes the full stack — bare-metal C on
-the motor side, TypeScript on the browser side, and everything in between.
+Electrical & Electronics Engineering student working at the intersection of
+industrial automation, embedded systems, mobile apps, backend services and
+full-stack IoT/web systems.
 
-I currently lead the **electronics and software** at
+I currently work on **electronics and software** at
 [**Robodor**](https://www.robodor.com), a Turkish manufacturer of motor
-drives, encoders, and sliding-door drivers shipping across Türkiye and
-Europe. The same product I help engineer is the same product I help ship —
-firmware, PCB, web, CMS, deploy.
+drives, encoders and sliding-door controllers. My work spans device-side
+communication, native mobile control apps, web/admin systems and industrial
+tooling around real products.
 
 ---
 
 ## TR · Kısa öz
 
-Endüstriyel elektronik ve yazılım. Donanıma yakın yerden — STM32 / RS485 /
-Modbus — başlayıp Web (Next.js / Prisma) ve mobil (Flutter / React Native)
-tarafına uzanan bir yelpazede çalışıyorum.
+Elektrik-Elektronik Mühendisliği öğrencisiyim. Endüstriyel otomasyon,
+embedded sistemler, BLE/Modbus cihaz haberleşmesi, native mobil uygulamalar,
+backend servisleri, SCADA araçları ve full-stack IoT/web sistemleri üzerinde
+çalışıyorum.
 
 Şu an [**Robodor**](https://www.robodor.com)'da motor sürücü kontrol
 kartlarını, enkoderleri ve yana kayar bahçe kapısı kontrol ünitelerini
-hem **devre + firmware** hem **web + CMS** tarafında geliştiriyorum.
+çevreleyen yazılım ve elektronik işlerinde görev alıyorum.
 
 ---
 
@@ -30,7 +32,7 @@ Embedded   ▸  STM32 (G0/F1) · bare-metal C · RS485 · Modbus RTU · CAN
 Hardware   ▸  Schematic + PCB design (KiCad / Altium-class workflows)
 Backend    ▸  Node.js · Python · Prisma + Postgres · NextAuth · REST + GraphQL
 Frontend   ▸  Next.js 16 (App Router) · React 19 · TypeScript · Tailwind · shadcn
-Mobile     ▸  Flutter (Clean Architecture + Riverpod) · React Native (Expo)
+Mobile     ▸  SwiftUI · Kotlin / Jetpack Compose · Flutter · React Native
 ML/CV      ▸  YOLOv8 · MediaPipe — applied, not researched
 Cloud      ▸  Vercel · Neon · AWS S3 · Resend · GA4
 ```
@@ -42,32 +44,33 @@ Cloud      ▸  Vercel · Neon · AWS S3 · Resend · GA4
 Some company projects are represented as sanitized public showcases. The
 production source, commit history and deployment details stay in private repos.
 
-### 🟦 [robodorcomcasestudy](https://github.com/gokturkgocen/robodorcomcasestudy)
-Production B2B platform — six locales, custom admin CMS, Puck-based home
-editor, locale-tabbed product / legal / form editors. Stack: Next 16,
-Prisma + Neon, NextAuth v5, Vercel. Live at **[robodor.com](https://www.robodor.com)**.
+### [robodor-mobile-control](https://github.com/gokturkgocen/robodor-mobile-control)
+Native iOS + Android mobile control system for Robodor controller boards:
+BLE connection, Modbus read/write, real-time monitoring, parameter editing,
+AWS backend integration, authentication, remote board access and web admin
+support.
 
-### 🟧 [robodor-platform](https://github.com/gokturkgocen/robodor-platform)
-IoT door-automation platform showcase — native iOS + Android apps, AWS
-backend, web admin console, tenant-scoped command queue, encrypted backups,
-shared design system.
+### [robodor-web-platform](https://github.com/gokturkgocen/robodor-web-platform)
+Six-locale B2B product catalog and CMS for robodor.com: custom admin panel,
+localized product content, SEO/hreflang/redirect work, legal content
+management, screenshots and architecture notes.
 
-### 🟨 [industrial-scada-writeup](https://github.com/gokturkgocen/industrial-scada-writeup)
-LAN-only SCADA desktop viewer for multi-card factory monitoring — Node.js
+### [robodor-scada-terminal](https://github.com/gokturkgocen/robodor-scada-terminal)
+LAN-only SCADA desktop viewer for Robodor RF-family controller cards: Node.js
 polling service, Tauri desktop client, WebSocket fan-out, SQLite history,
 Modbus TCP / RS485 constraints.
 
-### ⚡ [STM32-SyncMotion-Follower](https://github.com/gokturkgocen/STM32-SyncMotion-Follower)
-Real-time encoder follower on STM32G0 — non-blocking position sync, 1/32
-microstepping, RS485 telemetry. Bare-metal C.
+### [STM32-SyncMotion-Follower](https://github.com/gokturkgocen/STM32-SyncMotion-Follower)
+Bare-metal STM32G0 encoder follower with non-blocking stepper control, 1/32
+microstepping and RS485 telemetry.
 
-### 🔌 [modbus-rtu-panel](https://github.com/gokturkgocen/modbus-rtu-panel)
-Multi-device Modbus RTU control panel in Python — priority-queue polling
-across many slaves over RS485, Tk-based HMI.
+### [modbus-rtu-panel](https://github.com/gokturkgocen/modbus-rtu-panel)
+Python RS485/Modbus RTU HMI panel with multi-device polling and
+operator-facing controls.
 
-### 👁️ [yolo_eye_security](https://github.com/gokturkgocen/yolo_eye_security)
-YOLOv8 person-detection backend prototype — OpenCV camera loop, Flask status
-and snapshot endpoints for local-network clients.
+### [yolo_eye_security](https://github.com/gokturkgocen/yolo_eye_security)
+YOLOv8 person-detection prototype with local-network status/snapshot endpoints
+and mobile-client integration.
 
 ---
 
